@@ -54,15 +54,14 @@ In case, we want to convert it to dense representation, we can do so with ***toa
 
 4) Feature Scaling
 	1) Min-Max scaling or normalization
-		i) We subtract the minimum value of a feature from the current value and divide it by the difference between the minimum and the maximum value of that feature.
-		ii) Values are shifted and scaled so that they range between 0 and 1.
-		iii) Scikit-Learn provides *MinMaxScalar* transformer for this.
+		1) We subtract the minimum value of a feature from the current value and divide it by the difference between the minimum and the maximum value of that feature.
+		2) Values are shifted and scaled so that they range between 0 and 1.
+		3) Scikit-Learn provides *MinMaxScalar* transformer for this.
 	2) Standardization
-		i) We subtract mean value of each feature from the current value and divide it by the standard deviation so that the resulting feature has a unit variance.
-		ii) While normalization bounds values between 0 and 1, standardization does not bound values to a specific range.
-		iii) Standardization is less affected by the outliers compared to the normalization.
-		iv) Scikit-Learn provides StandardScalar transformation for feature standardization.
-
+		1) We subtract mean value of each feature from the current value and divide it by the standard deviation so that the resulting feature has a unit variance.
+		2) While normalization bounds values between 0 and 1, standardization does not bound values to a specific range.
+		3) Standardization is less affected by the outliers compared to the normalization.
+		4) Scikit-Learn provides StandardScalar transformation for feature standardization
 ### Step 5 : Select and Train ML Model
 1) Train and fit the model
 ```python
