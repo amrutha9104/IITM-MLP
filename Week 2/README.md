@@ -199,8 +199,6 @@ General dataset API has three main kind of interfaces :
 - The dataset *loaders* are used to *load* toy datasets bundled with sklearn.
 - The dataset *fetches* are used to *download and load* datasets from the internet.
 - The dataset *generators* are used to *generate* controlled synthetic datasets.
-### Dataset API
-![[Pasted image 20250216114210.png]]
 #### Dataset Loaders
 
 | *Dataset Loader*     | * # samples (n) * | * # features (m) * | * # labels * | *Type*                      |
