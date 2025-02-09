@@ -1,2 +1,2 @@
-# Week 4 : Linear Regression
-# ===========
+# Week 4 
+# 1) Linear Regression
