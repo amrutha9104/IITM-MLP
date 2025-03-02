@@ -4,3 +4,5 @@
 3) Evaluating Classifiers
 4) Demonstration: Binary class Image Classification with Perceptron
 5) Demonstration: Multi class Image Classification with Perceptron
+
+coming soon...
