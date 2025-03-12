@@ -4,3 +4,4 @@
 3) Demonstration : KNN with MNIST
 4) Demonstartion : KNN with California Housing Dataset
 5) Large Scale ML
+6) SVM in scikit-learn
